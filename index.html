@@ -1,0 +1,38 @@
+<html>
+<head >
+<link rel="stylesheet" type="text/css" href="w3.css">
+<link rel="stylesheet" type="text/css" href="1.css">
+<style>
+
+ h2{color:red;text-decoration:underline;font-weight:bold;font-family:italics;font-size:50px;}
+ strong{color:blue;}
+</style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="1.js">
+</script>
+<body>
+ <table id="tab"><tr><td>
+    <div>
+   <h2 >Set of rules:</h2>
+      <ol>
+      <li>You are not allowed to complex calculations in transcedental(log,sin,e^x...) functions for eg:<strong>(sin2+cos3)</strong> is not allowed however <strong>sin20,2^3, etc...</strong> is allowed.</li>
+      <li>While using the scientfic operator sine,cos,tan and log always remember the  rule to write that is written below:</li> 
+         <ul>
+           <li><strong>Operator(num)</strong>,for eg: <strong>sin20</strong></li>
+         </ul>
+	  <li>For power function when you input the data and the power operator <strong>(^)</strong> ,on the screen <strong>aPowb</strong> will be displayed <strong>(where a and b are some numbers).</strong></li>
+  </ol>
+    </div></td><td>
+<table border="0" width="15px" height="30px" >
+<tr><td colspan="5"><input type="text" id="inp"></td></tr>
+<tr><td colspan="2" >Calculator</td><td><input type="button" value="Back" id="back"></td><td><input type="button" value="Clrsc()" id="clear"></td><td><button value="Pow">^</button></td></tr>
+<tr><td><button value="1">1</button></td><td><button value="2">2</button></td><td><button value="3">3</button></td><td><button value="+">+</button></td><td><button value="Sin">Sin(x)</button></td></tr>
+<tr><td><button value="4">4</button></td><td><button value="5">5</button></td><td><button value="6">6</button></td><td><button value="-">-</button></td><td><button value="Cos">Cos(x)</button></td></tr>
+<tr><td><button value="7">7</button></td><td><button value="8">8</button></td><td><button value="9">9</button></td><td><button value="*">*</button></td><td><button value="Tan">Tan(x)</button></td></tr>
+<tr><td><button value=".">.</button></td><td><button value="0">0</button></td><td><input type=button value="=" id="ans"></td><td><button value="/">/</button></td><td><button value="Log">Log(x)</button></td></tr>
+
+</table>
+</td></tr></table>
+</body>
+</html>
